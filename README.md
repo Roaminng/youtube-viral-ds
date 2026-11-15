@@ -3,8 +3,7 @@
 An end-to-end Machine Learning classification pipeline and interactive Streamlit web application predicting whether a YouTube video will reach viral status (top 20% of views) across a 12,000-video dataset.
 
 ## Live Demo
-- **Interactive App:** [Add your Streamlit Community Cloud URL after Step 3]
-
+- **Interactive App:** [Live Streamlit App](https://youtube-viral-ds-xfabubvypqcdxafty3qjgg.streamlit.app/)
 ## Project Highlights & Methodology
 1. **Data Hygiene & Leakage Auditing:** Audited features and removed `log_views` to prevent target leakage, ensuring realistic inference using engagement velocity and channel metadata.
 2. **Feature Engineering:** Engineered logarithmic engagement transformations (`log_likes`, `log_comments`, `log_subscribers`) and relative channel ratios (`log_like_per_sub`, `log_engagement_sum`).
